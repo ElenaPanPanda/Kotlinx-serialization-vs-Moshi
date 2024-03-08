@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">Kotlinx serialization</string>
+    <string name="app_name">Kotlinx serialization vs Moshi</string>
 </resources>
