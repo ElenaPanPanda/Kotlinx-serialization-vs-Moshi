@@ -3,7 +3,7 @@ package com.example.kotlinxserialization
 import kotlinx.serialization.*
 
 @Serializable
-data class Recipe(
+data class RecipeForKotlinx(
     val title: String,
     val image: String,
     val ingredients: List<String>,
@@ -12,6 +12,6 @@ data class Recipe(
 )
 
 @Serializable
-data class Recipes(
-    @SerialName("recipes") val recipesList: List<Recipe>
+data class RecipesForKotlinx(
+    @SerialName("recipes") val recipesList: List<RecipeForKotlinx>
 )
