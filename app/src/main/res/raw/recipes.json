@@ -1,0 +1,48 @@
+{
+  "recipes": [
+    {
+      "title": "Title 1",
+      "image": "url 1",
+      "ingredients": [
+        "first ingredient",
+        "second ingredient"
+      ],
+      "icons": [
+        "🌿",
+        "🍗",
+        "🍪",
+        "🍯"
+      ],
+      "instructions": "big instructions for recipe 1"
+    },
+    {
+      "title": "Title 2",
+      "image": "url 2",
+      "ingredients": [
+        "first ingredient",
+        "second ingredient"
+      ],
+      "icons": [
+        "🍗",
+        "🍪",
+        "🍯"
+      ],
+      "instructions": "big instructions for recipe 2"
+    },
+    {
+      "title": "Title 3",
+      "image": "url 3",
+      "ingredients": [
+        "first ingredient",
+        "second ingredient"
+      ],
+      "icons": [
+        "🌿",
+        "🍗",
+        "🍪",
+        "🍯"
+      ],
+      "instructions": "big instructions for recipe 3"
+    }
+  ]
+}

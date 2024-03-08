@@ -1,11 +1,13 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlinx-serialization")
 }
+
 
 android {
     namespace = "com.example.kotlinxserialization"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.kotlinxserialization"
@@ -39,9 +41,11 @@ android {
     }
 }
 
+
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
